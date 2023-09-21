@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.maincontent{
+    background-image: url("./assets/airport_back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+}
+.headercontent__title{
+    text-align: center;
+    font-size: 2.5em;
+    color: #fff;
+    text-shadow: 4px 4px 4px #000;
+    padding: 10vh 0 70vh 0;
+}
+.headercontent__alink{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: .5s linear;
+    margin-left: 0.5em;
+}
+.headercontent__alink:hover{
+    font-size: 1.5em;
+
+}
+
+.headercontent__ul li {
+    margin-top: 2em;
+    list-style: none;
+}
+.headercontent__ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4.5em;
+
+}
